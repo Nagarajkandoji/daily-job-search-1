@@ -10,7 +10,7 @@ SMTP_EMAIL = os.getenv("SMTP_EMAIL")
 SMTP_PASS = os.getenv("SMTP_PASS")
 TO_EMAIL = os.getenv("TO_EMAIL")
 
-QUERY = 'Senior Technical Support Engineer 10 years experience jobs India'
+QUERY = 'Senior Technical Support Engineer" ("8 years" OR "10 years" OR "8-12 years") (Bangalore OR Bengaluru OR Mysore OR Mysuru) jobs'
 
 def google_search(query):
     url = "https://www.googleapis.com/customsearch/v1"
